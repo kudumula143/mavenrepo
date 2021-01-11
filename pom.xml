@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>my_atifactory</id>
             <name>Internal Releases</name>
-            <url>http://18.225.31.134:8082/repository/dinesh/</url>
+            <url>http://ec2-18-217-198-102.us-east-2.compute.amazonaws.com:8082/artifactory/dinesh/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://18.225.31.134:8082/repository/dinesh/</url>
+            <url>http://ec2-18-217-198-102.us-east-2.compute.amazonaws.com:8082/artifactory/dinesh/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
